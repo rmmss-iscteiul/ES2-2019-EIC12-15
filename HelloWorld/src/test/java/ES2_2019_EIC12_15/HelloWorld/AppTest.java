@@ -10,14 +10,6 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-	 public void testSomar()
-	    {
-	        assertEquals( App.somar(3, 6),9 );
-	    }
-	    public void testConc()
-	    {
-	        assertEquals( App.conc("aa", "bb"),"aabb" );
-	    }
     /**
      * Create the test case
      *
@@ -39,5 +31,12 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-   
+    public void testSomar()
+    {
+        assertEquals( App.somar(3, 6),9 );
+    }
+    public void testConc()
+    {
+        assertEquals( App.conc("aa", "bb"),"aabb" );
+    }
 }
