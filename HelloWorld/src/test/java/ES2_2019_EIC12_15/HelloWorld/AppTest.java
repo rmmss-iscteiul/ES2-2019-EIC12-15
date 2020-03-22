@@ -31,8 +31,12 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testSomar()
     {
-        assertTrue( true );
+        assertEquals( App.somar(3, 6),9 );
+    }
+    public void testConc()
+    {
+        assertEquals( App.conc("aa", "bb"),"aabb" );
     }
 }
