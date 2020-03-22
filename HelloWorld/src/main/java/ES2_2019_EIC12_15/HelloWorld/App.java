@@ -10,4 +10,13 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+    
+    public static int somar(int a, int b) {
+    	return a+b;
+    }
+    
+    public static String conc(String a, String b) {	
+    	return a+b;
+    	
+    }
 }
