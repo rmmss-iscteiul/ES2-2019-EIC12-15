@@ -20,5 +20,5 @@ public class tests extends TestCase {
 		assertEquals( App.conc("aa", "bb"),"aabb" );
 	}
 
-	
+
 }
