@@ -1,4 +1,4 @@
 # Source Image name
-from es2
+from scratch
 # Mainter Name
 maintainer rmmss
