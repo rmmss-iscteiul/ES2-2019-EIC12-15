@@ -1,11 +1,11 @@
 def dockeruser = "rmmssiscte"
-def imagename = "projetofase2"
+def imagename = "projetoes"
 def container = "projetoes"
 node {
    echo 'Building Docker Image'
 
 stage('Git Checkout') {
-    git 'https://github.com/rmmss-iscteiul/ES2-2019-EIC12-15'
+    git 'https://github.com/rmmss-iscteiul/ES2FASE2'
     }
     
 stage('Build Docker Imagae'){
@@ -13,7 +13,7 @@ stage('Build Docker Imagae'){
     }
     
 stage('Stop Existing Container'){
-     powershell "docker stop ${container}"
+     powershell "docker stop ${imagename}"
     }
     
 stage('Remove Existing Container'){
