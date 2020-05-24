@@ -34,7 +34,7 @@ public class App2
     	System.out.println( "Hello World! 4" );
     	System.out.println( "Hello World! 5" );
     	System.out.println( "Hello World! 6" );
-    	System.out.println( "TESTE ISTO FUNCIONA AGORA" );
+    	System.out.println( "TESTE ISTO FUNCIONA AGORA!!!!!!" );
     	try {
 			TimeUnit.SECONDS.sleep(10);
 		} catch (InterruptedException e) {
