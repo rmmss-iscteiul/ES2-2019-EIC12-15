@@ -5,7 +5,7 @@ node {
    echo 'Building Docker Image'
 
 stage('Git Checkout') {
-    git 'https://github.com/rmmss-iscteiul/ES2FASE2'
+    git 'https://github.com/rmmss-iscteiul/ES2-2019-EIC12-15'
     }
     
 stage('Build Docker Imagae'){
