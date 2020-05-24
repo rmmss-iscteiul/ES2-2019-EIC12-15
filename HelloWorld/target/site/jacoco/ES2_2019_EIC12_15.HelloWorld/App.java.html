@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>App.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">HelloWorld</a> &gt; <a href="index.source.html" class="el_package">ES2_2019_EIC12_15.HelloWorld</a> &gt; <span class="el_source">App.java</span></div><h1>App.java</h1><pre class="source lang-java linenums">package ES2_2019_EIC12_15.HelloWorld;
+
+
+/**
+ * Classe &quot;Hello world!&quot; simples para 1a fase do projeto de ES2
+ *
+ */
+public class App 
+{
+	/**
+	 * Atributo &quot;info&quot; da classe
+	 */
+	private String info;
+	
+	/**
+	 * Construtor da classe
+	 * @param info Valor com o qual o atributo &quot;info&quot; ira ser inicializado
+	 */
+<span class="nc" id="L19">	public App(String info) {</span>
+<span class="nc" id="L20">		this.info=info;</span>
+<span class="nc" id="L21">	}</span>
+	/**
+	 * Metodo main para iniciar o programa
+	 * @param args Argumentos de entrada
+	 */
+    public static void main( String[] args )
+    {
+<span class="nc" id="L28">    	System.out.println( &quot;Hello World! 1&quot; );</span>
+<span class="nc" id="L29">    	System.out.println( &quot;Hello World! 2&quot; );</span>
+<span class="nc" id="L30">    	System.out.println( &quot;Hello World! 3&quot; );</span>
+<span class="nc" id="L31">    	System.out.println( &quot;Hello World! 4&quot; );</span>
+<span class="nc" id="L32">    	System.out.println( &quot;Hello World! 5&quot; );</span>
+<span class="nc" id="L33">    	System.out.println( &quot;Hello World! 6&quot; );</span>
+<span class="nc" id="L34">    }</span>
+    
+    
+    
+    
+    
+    /**
+     * Metodo somar para testar a soma de dois numeros
+     * @param a Primeiro numero a ser somado
+     * @param b Segundo numero a ser somado
+     * @return Soma de a com b
+     */
+    public static int somar(int a, int b) {
+<span class="fc" id="L47">    	return a+b;</span>
+    }
+    /**
+     * Metodo para concatenar duas strings
+     * @param a String inicial
+     * @param b String que vai ser acrescentada no final da string a
+     * @return Concatenacao das strings a e b
+     */
+    public static String conc(String a, String b) {	
+<span class="fc" id="L56">    	return a+b;</span>
+    	
+    }
+    /**
+     * Getter do atributo &quot;info&quot;
+     * @return Valor do atributo &quot;info&quot;
+     */
+	public String getInfo() {
+<span class="nc" id="L64">		return info;</span>
+	}
+	/**
+	 * Setter do atributo &quot;info&quot;
+	 * @param info Valor que o atributo &quot;info&quot; ira passar a tomar
+	 */
+	public void setInfo(String info) {
+<span class="nc" id="L71">		this.info = info;</span>
+<span class="nc" id="L72">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span></div></body></html>
