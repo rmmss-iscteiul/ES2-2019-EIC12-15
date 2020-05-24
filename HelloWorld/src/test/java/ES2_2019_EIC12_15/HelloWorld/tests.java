@@ -13,11 +13,11 @@ public class tests extends TestCase {
 	}
 	public void testSomar()
 	{
-		assertEquals( App.somar(3, 6),9 );
+		assertEquals( App2.somar(3, 6),9 );
 	}
 	public void testConc()
 	{
-		assertEquals( App.conc("aa", "bb"),"aabb" );
+		assertEquals( App2.conc("aa", "bb"),"aabb" );
 	}
 
 

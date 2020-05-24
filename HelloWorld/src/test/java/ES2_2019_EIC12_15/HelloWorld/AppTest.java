@@ -33,10 +33,10 @@ public class AppTest
      */
     public void testSomar()
     {
-        assertEquals( App.somar(4, 5),9 );
+        assertEquals( App2.somar(4, 5),9 );
     }
     public void testConc()
     {
-        assertEquals( App.conc("aa", "bb"),"aabb" );
+        assertEquals( App2.conc("aa", "bb"),"aabb" );
     }
 }

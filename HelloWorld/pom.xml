@@ -54,7 +54,7 @@
         <archive>
           <manifest>
             <addClasspath>true</addClasspath>
-            <mainClass>ES2_2019_EIC12_15.HelloWorld.App</mainClass>
+            <mainClass>ES2_2019_EIC12_15.HelloWorld.App2</mainClass>
           </manifest>
         </archive>
       </configuration>

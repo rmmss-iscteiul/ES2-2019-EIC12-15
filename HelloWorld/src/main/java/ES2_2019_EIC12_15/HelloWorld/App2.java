@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
  * Classe "Hello world!" simples para 1a fase do projeto de ES2
  *
  */
-public class App 
+public class App2 
 {
 	/**
 	 * Atributo "info" da classe
@@ -17,7 +17,7 @@ public class App
 	 * Construtor da classe
 	 * @param info Valor com o qual o atributo "info" ira ser inicializado
 	 */
-	public App(String info) {
+	public App2(String info) {
 		this.info=info;
 	}
 	/**
