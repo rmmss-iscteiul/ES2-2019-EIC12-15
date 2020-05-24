@@ -1,8 +1,8 @@
 def dockeruser = "rmmssiscte"
-def imagename = "ubuntu:16"
-def container = "apache3"
+def imagename = "projetofase2"
+def container = "projetoes"
 node {
-   echo 'Building Apache Docker Image'
+   echo 'Building Docker Image'
 
 stage('Git Checkout') {
     git 'https://github.com/rmmss-iscteiul/ES2-2019-EIC12-15'
@@ -21,18 +21,18 @@ stage('Remove Existing Container'){
     }
     
 stage ('Runing Container to test built Docker Image'){
-    powershell "docker run -dit --name ${container} -p 50505:50505 ${imagename}"
+    powershell "docker run -dit --name ${container} -p 42068:42068 ${imagename}"
     }
     
 stage('Tag Docker Image'){
-    powershell "docker tag ${imagename} ${env.dockeruser}/ubuntu:16.04"
+    powershell "docker tag ${imagename} ${env.dockeruser}/projetofase2:test"
     }
 
 stage('Docker Login and Push Image'){
     withCredentials([usernamePassword(credentialsId: 'docker-hub-credentials', passwordVariable: 'dockerpasswd', usernameVariable: 'dockeruser')]) {
     powershell "docker login -u ${dockeruser} -p ${dockerpasswd}"
     }
-    powershell "docker push ${dockeruser}/ubuntu:16.04"
+    powershell "docker push ${dockeruser}/projetofase2:test"
     }
 
 }
