@@ -28,15 +28,10 @@ public class App2
     {
     	
     	while(true) {
-    	System.out.println( "Hello World! 1" );
-    	System.out.println( "Hello World! 2" );
-    	System.out.println( "Hello World! 3" );
-    	System.out.println( "Hello World! 4" );
-    	System.out.println( "Hello World! 5" );
-    	System.out.println( "Hello World! 6" );
+    	
     	System.out.println( "TESTE ISTO FUNCIONA AGORA!!!!!!" );
     	try {
-			TimeUnit.SECONDS.sleep(10);
+			TimeUnit.SECONDS.sleep(5);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
