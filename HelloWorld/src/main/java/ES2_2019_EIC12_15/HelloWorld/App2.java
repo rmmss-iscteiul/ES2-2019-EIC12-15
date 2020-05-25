@@ -30,6 +30,7 @@ public class App2
     	while(true) {
     	
     	System.out.println( "TESTE ISTO FUNCIONA AGORA!!!!!!" );
+    	System.out.println( "TESTE ISTO FUNCIONA AGORA???" );
     	try {
 			TimeUnit.SECONDS.sleep(5);
 		} catch (InterruptedException e) {
